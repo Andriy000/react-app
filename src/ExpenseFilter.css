@@ -1,0 +1,23 @@
+.expensefilter-section{
+  padding-top: 1cm;
+  padding-left: 50px;
+  width:20cm
+  
+}
+.expense-filter-control{
+  display: flex;
+  justify-content:space-between ;
+}
+.expense-filter-control>label{
+  font-size: x-large;
+  font-weight: bold;
+  color: aliceblue;
+}
+.expense-filter-control>select{
+  padding-left: 30px;
+  width:3cm;
+  height: 45px;
+  border :aliceblue solid 2px;
+  border-radius: 5px;
+
+}

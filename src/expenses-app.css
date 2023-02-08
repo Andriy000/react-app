@@ -1,0 +1,101 @@
+
+.nav-section{
+  padding-top: 20px;
+  height: 80px;
+  width:100%;
+  background-color: blueviolet;
+  position: fixed;
+  opacity: 1;
+  z-index: 3;
+  top: 0cm;
+}
+.nav-section>h2{
+  padding-left: 30px;
+  position: relative;
+  bottom: 10px;
+  color: aliceblue;
+}
+.nav-menu{
+  width: 300px;
+  list-style-type: none; ;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: relative;
+  left: 1000px;
+  bottom: 50px;
+  font-size: larger;
+  font-weight: 500;
+  color:aliceblue
+}
+.nav-menu>li:hover{
+  color: gold;
+  cursor: pointer;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  padding-top: 2cm;
+  height: 100px;
+  
+}
+.card-box{
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size:larger;
+  border-radius: 10px;
+  width:90%;
+  height: 2cm;
+  padding-top:40px;
+  padding-left: 1cm;
+  gap: 10px;
+  background-color: rgb(71, 73, 77);
+  box-shadow:0 1px 8px rgb(3, 4, 5) ;
+}
+.price{
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+  left: 6cm;
+  color: aliceblue;
+  background-color: blueviolet;
+  width:2cm;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid aliceblue;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.expense-date{
+ position: relative;
+ bottom: 20px;
+ height: 80px;
+ width: 120px;
+ border-radius: 5px;
+ border: 3px solid black; 
+ padding-left: 10px;
+ font-size: x-large;
+}
+.expense-name{
+  width: 4cm;
+  padding-left: 2cm;
+  font-size: x-large;
+  font-weight: bolder;
+  color: blueviolet;
+}
+ .card-container{
+  margin-top: 1cm;
+  margin-left: 260px;
+  padding-bottom:1cm ;
+  height: 800px;
+  width: 870px;
+  background-color :rgb(26, 25, 25);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: 2cm;
+ }
+

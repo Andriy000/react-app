@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
+import React, {useState} from 'react';
+import ExpenseHeader from './expenseNav';
+import Expenses from './Expenses';
+import NewExpense from './newExpense/ExpenseNEw'
+
+  const mockExpenseData =[
+
+  ];
+
+  const App =() =>{
+    const [expenseData ,setExpense]=useState(mockExpenseData);
+    const addHandler =expense =>{
+      setExpense(prev =>{
+        return [expense, ...prev]
+      });
+  
+    };
+
+    return(
+  <section>
+      <ExpenseHeader></ExpenseHeader>
+      <NewExpense onAddHandler ={addHandler}/>
+    <section className='card-container'>
+      <Expenses items ={expenseData}/>
+    </section>
+  </section>
   );
 }
+
 
 export default App;

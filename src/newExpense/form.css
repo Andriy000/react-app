@@ -1,0 +1,94 @@
+.input-container>div{
+  display: flex;
+  flex-direction: column;
+
+}
+.input-container>div>input{
+width: 7cm;
+height: 30px;
+border-radius: 10px;
+border: 3px solid blueviolet;
+}
+.input-container>div>label{
+  font-size: x-large;
+  font-weight:bold;
+  color: blueviolet;
+
+}
+.formSection{
+  position: relative;
+  left: 5cm;
+  top: 2cm;
+  margin: 2cm;
+  padding:1cm;
+  width: 21cm;
+  height: 8cm;
+  background-color:rgb(26, 25, 25);
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(9, 5, 5, 0.25);
+}
+.input-container{
+  position: relative;
+  left: 10px;
+
+}
+.form-btn{
+  position: absolute;
+  top: 280px;
+ 
+  width: 3cm;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to left,#8E2DE2, #4a00e0,#8E2DE2);
+  background-size: 200%;
+  transition: 0.5s;
+  color: aliceblue;
+  font-weight: bolder;
+  border: none;
+  box-shadow:  0.1cm 5px 30px rgba(142, 165, 233, 0.25) ;
+  z-index: 3;
+}
+.form-btn-cancel{
+  position: absolute;
+  top: 280px;
+  left: 150px ;
+  width: 3cm;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to left,#8E2DE2, #4a00e0,#8E2DE2);
+  background-size: 200%;
+  transition: 0.5s;
+  color: aliceblue;
+  font-weight: bolder;
+  border: none;
+  box-shadow:  0.1cm 5px 30px rgba(142, 165, 233, 0.25) ;
+  z-index: 3;
+}
+.form-btn:hover{
+  background-position: right;
+}
+.input-section{
+  padding: 10px;
+}
+.description{
+  position: relative;
+  left: 10cm;
+  bottom: 6cm;
+  width: 9cm;
+  height: 8cm;
+  font-size: x-large;
+  font-weight:bold;
+  color: aliceblue;
+}
+.expense-form-wrapper{
+  padding-top: 1cm;
+}
+.valid-mess{
+  color: blueviolet;
+  position: relative;
+  left: 2cm;
+  bottom: 1cm;
+}
+.price-label{
+  width:20cm
+}
